@@ -1,0 +1,23 @@
+version: '2'
+services:
+ postgres:
+   image: postgres:9.6
+   ports:
+     - "5432:5432"
+   environment:
+     - POSTGRES_DB=microservice-template
+     - POSTGRES_USER=root
+     - POSTGRES_PASSWORD=root
+     - MAX_CONNECTIONS=300
+   volumes:
+     - ./docker-development-database-config.sql:/docker-entrypoint-initdb.d/setup.sql
+   networks:
+     - compose_postgres
+
+networks:
+  compose_postgres:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.68.70.1/24
