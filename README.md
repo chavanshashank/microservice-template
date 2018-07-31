@@ -129,6 +129,17 @@ Replace the variable ``{name}`` to your name and send the request.
 
 The response should be _200_ and should return something like ```"value": "Hello yoda!"```
 
+This project is configured with rest docs of the spring boot, when performing ``mvn clean install `` the same will be 
+available in 
+ 
+ ```
+ $ cd microservice-template/microservice-template-web
+ $ cd target/generated-docs
+ ```
+The file will be named microservice-template-manual.html
+ 
+You can access what was generated on my machine [here](https://github.com/JoaoPedroCardoso/microservice-template/blob/master/rest-docs/asciidoc/MicroserviceTemplateManual.html).
+
 ## Question or contact
 
 More info about micro service architecture [here](http://microservices.io/patterns/microservices.html).
