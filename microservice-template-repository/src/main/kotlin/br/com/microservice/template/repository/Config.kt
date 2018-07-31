@@ -13,9 +13,6 @@ import java.text.ParseException
 @Profile("dev")
 open class Config {
 
-    /*@Autowired
-    private val dbService: DbService? = null*/
-
     @Value("\${spring.jpa.hibernate.ddl-auto}")
     private val strategy: String? = null
 
@@ -27,7 +24,7 @@ open class Config {
             return false
         }
 
-        //dbService!!.instantiateTestDatabase()
+        //If you need to, call your initial loading method for the database here
 
         return true
     }

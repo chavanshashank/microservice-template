@@ -16,13 +16,17 @@ import org.springframework.web.bind.annotation.ResponseStatus
 @RequestMapping
 interface TestApi {
 
+    companion object {
+        const val HELLO_BASE_URL = "/hello/{name}"
+    }
+
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
-    @GetMapping("/hello/{name}", produces = [(MediaType.APPLICATION_JSON_UTF8_VALUE)])
+    @GetMapping(HELLO_BASE_URL, produces = [(MediaType.APPLICATION_JSON_UTF8_VALUE)])
     fun hello(@PathVariable(value = "name") name: String): TestRepresentation
 
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
-    @PutMapping("/hello/{name}", produces = [(MediaType.APPLICATION_JSON_UTF8_VALUE)])
+    @PutMapping(HELLO_BASE_URL, produces = [(MediaType.APPLICATION_JSON_UTF8_VALUE)])
     fun helloPut(@PathVariable(value = "name") name: String): TestRepresentation
 }

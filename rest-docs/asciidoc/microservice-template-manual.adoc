@@ -1,0 +1,28 @@
+= Microservice Template
+:example-caption!:
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 5
+
+[[microservice-template]]
+= Microservice Template
+
+This is a manual for documentation of services the Microservice Template.
+
+== Hello Service
+
+==== Get on hello service
+
+Request:
+include::{snippets}/microservice-template-web/target/generated-snippets/get-operation-on-hello/http-request.adoc[]
+
+Response success:
+include::{snippets}/microservice-template-web/target/generated-snippets/get-operation-on-hello/http-response.adoc[]
+
+==== Put on hello service
+
+Request:
+include::{snippets}/microservice-template-web/target/generated-snippets/put-operation-on-hello/http-request.adoc[]
+
+Response success:
+include::{snippets}/microservice-template-web/target/generated-snippets/put-operation-on-hello/http-response.adoc[]

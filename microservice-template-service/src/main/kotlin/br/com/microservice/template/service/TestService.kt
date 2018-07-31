@@ -10,4 +10,5 @@ import org.springframework.stereotype.Service
 class TestService{
 
     fun hello(name: String) : Test = Test("Hello $name!")
+
 }

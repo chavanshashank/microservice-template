@@ -12,8 +12,8 @@ import org.springframework.context.annotation.Configuration
 @ComponentScan(basePackages = ["br.com.microservice.template", "br.com.microservice.template.service"])
 @EntityScan(basePackages = ["br.com.microservice.template.model"])
 @EnableAutoConfiguration
-open class VainorachaCoreApplication
+open class MicroserviceTemplateApplication
 
 fun main(args: Array<String>) {
-    runApplication<VainorachaCoreApplication>(*args)
+    runApplication<MicroserviceTemplateApplication>(*args)
 }
