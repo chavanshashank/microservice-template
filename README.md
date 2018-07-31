@@ -3,7 +3,7 @@
 # Micro Service Template
 
 ## Description
-  This is an example of a micro-service structure model using spring boot with Kotlin and docker with the postgresql base date.
+  This is an example of a micro-service architecture model using spring boot with Kotlin and docker with the postgresql base date.
     
 ## Technologies Used:
 
