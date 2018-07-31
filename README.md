@@ -121,7 +121,7 @@ docker-compose down
 
 ### Calling the hello world exposed service
 
-Open the [Postman] (https://www.getpostman.com).
+Open the [Postman](https://www.getpostman.com).
 
 Perform a GET or PUT operation on the URL: ``http://localhost:8080/hello/{name}``
 
@@ -129,6 +129,8 @@ Replace the variable ``{name}`` to your name and send the request.
 
 The response should be _200_ and should return something like ```"value": "Hello yoda!"```
 
-## Contact
+## Question or contact
 
-Problems or questions contact me at [github](https://github.com/JoaoPedroCardoso) or on my [linkedin](https://www.linkedin.com/in/joaopedrocar/)
+More info about micro service architecture [here](http://microservices.io/patterns/microservices.html).
+
+Problems or questions contact me at [github](https://github.com/JoaoPedroCardoso) or on my [linkedin](https://www.linkedin.com/in/joaopedrocar/).
