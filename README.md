@@ -138,7 +138,7 @@ available in
  ```
 The file will be named microservice-template-manual.html
  
-You can access what was generated on my machine [here](https://github.com/JoaoPedroCardoso/microservice-template/blob/master/rest-docs/asciidoc/MicroserviceTemplateManual.html).
+You can access what was generated on my machine and submit on my s3 [here](https://s3.us-east-2.amazonaws.com/microservice-templatedocumentation/doc/microservice-template-manual.html).
 
 ## Question or contact
 
