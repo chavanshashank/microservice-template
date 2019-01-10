@@ -145,3 +145,7 @@ You can access what was generated on my machine and submit on my s3 [here](https
 More info about micro service architecture [here](http://microservices.io/patterns/microservices.html).
 
 Problems or questions contact me at [github](https://github.com/JoaoPedroCardoso) or on my [linkedin](https://www.linkedin.com/in/joaopedrocar/).
+
+## Note
+
+This application is deployed in heroku, please check the environment tab!
